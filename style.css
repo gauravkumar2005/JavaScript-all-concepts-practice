@@ -1,0 +1,144 @@
+/* GLOBAL */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:#f4f4f4;
+  color:#333;
+  text-align:center;
+}
+
+/* NAVBAR */
+
+nav{
+  background:#111827;
+  color:white;
+  padding:20px;
+}
+
+/* HERO */
+
+.hero{
+  padding:80px 20px;
+
+  background:linear-gradient(to right,#2563eb,#7c3aed);
+
+  color:white;
+}
+
+.hero h2{
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+.hero p{
+  max-width:700px;
+  margin:auto;
+  margin-bottom:30px;
+  line-height:1.6;
+}
+
+/* BUTTON */
+
+button{
+  padding:12px 25px;
+  border:none;
+  background:#111827;
+  color:white;
+  cursor:pointer;
+  border-radius:8px;
+  margin:10px;
+
+  transition:0.3s;
+}
+
+button:hover{
+  transform:scale(1.05);
+}
+
+/* SECTION */
+
+.section{
+  padding:70px 20px;
+}
+
+.section h2{
+  margin-bottom:25px;
+}
+
+/* COUNTER */
+
+.counter-box{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+}
+
+#count{
+  font-size:40px;
+  font-weight:bold;
+}
+
+/* FORM */
+
+input{
+  padding:12px;
+  width:250px;
+  border:1px solid gray;
+  border-radius:8px;
+}
+
+#message{
+  margin-top:20px;
+  font-weight:bold;
+}
+
+/* ARRAY LIST */
+
+ul{
+  list-style:none;
+}
+
+li{
+  background:white;
+  width:250px;
+  margin:10px auto;
+  padding:15px;
+  border-radius:10px;
+
+  box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+/* CLOCK */
+
+#clock{
+  font-size:40px;
+  font-weight:bold;
+}
+
+/* TOGGLE BOX */
+
+#toggleBox{
+  width:300px;
+  margin:20px auto;
+  padding:40px;
+
+  background:#2563eb;
+  color:white;
+
+  border-radius:15px;
+}
+
+/* FOOTER */
+
+footer{
+  background:black;
+  color:white;
+  padding:20px;
+}
