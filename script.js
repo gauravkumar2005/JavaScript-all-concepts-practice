@@ -221,18 +221,6 @@ function greet(name){
 console.log(greet("Gaurav"));
 
 
-// Template Literal
-const name = "Gaurav";
-console.log(`Hello ${name}`);
-
-// Destructuring
-const user = {name:"Gaurav", age:20};
-const {name:username, age} = user;
-
-// Spread Operator
-const arr1 = [1,2,3];
-const arr2 = [...arr1,4,5];
-
 // Array Methods
 const numbers = [1,2,3,4,5];
 
@@ -255,3 +243,8 @@ localStorage.setItem("username","Gaurav");
 console.log(
 localStorage.getItem("username")
 );
+
+// Fetch API
+fetch("https://jsonplaceholder.typicode.com/users")
+.then(response => response.json())
+.then(data => console.log(data));
