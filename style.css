@@ -146,6 +146,12 @@ li{
   border-radius:10px;
 }
 
+#timer{
+  font-size:45px;
+  font-weight:bold;
+  margin:20px;
+}
+
 .section{
   padding:50px 20px;
   margin:30px auto;
