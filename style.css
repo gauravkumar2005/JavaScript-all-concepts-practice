@@ -136,6 +136,17 @@ li{
 }
 
 
+.section{
+  padding:50px 20px;
+  margin:30px auto;
+  max-width:1000px;
+
+  background:white;
+  border-radius:15px;
+
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
 @media (max-width:768px){
 
   .hero h2{
