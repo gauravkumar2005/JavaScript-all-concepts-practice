@@ -158,6 +158,15 @@ li{
   margin-top:20px;
 }
 
+.user-card{
+  background:white;
+  padding:20px;
+  margin:15px auto;
+  width:300px;
+  border-radius:12px;
+  box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+
 .section{
   padding:50px 20px;
   margin:30px auto;
