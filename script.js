@@ -255,14 +255,3 @@ localStorage.setItem("username","Gaurav");
 console.log(
 localStorage.getItem("username")
 );
-
-// Promise
-const myPromise = new Promise((resolve,reject)=>{
-
-  resolve("Promise Success");
-
-});
-
-myPromise.then(data=>{
-  console.log(data);
-});
