@@ -135,6 +135,26 @@ li{
   border-radius:15px;
 }
 
+
+@media (max-width:768px){
+
+  .hero h2{
+    font-size:35px;
+  }
+
+  .counter-box{
+    flex-direction:column;
+  }
+
+  input{
+    width:90%;
+  }
+
+  #toggleBox{
+    width:90%;
+  }
+}
+
 /* FOOTER */
 
 footer{
