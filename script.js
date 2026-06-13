@@ -233,6 +233,7 @@ const {name:username, age} = user;
 const arr1 = [1,2,3];
 const arr2 = [...arr1,4,5];
 
+// Array Methods
 const numbers = [1,2,3,4,5];
 
 console.log(numbers.map(num => num * 2));
@@ -240,3 +241,17 @@ console.log(numbers.map(num => num * 2));
 console.log(numbers.filter(num => num > 2));
 
 console.log(numbers.reduce((a,b) => a+b,0));
+
+// String Methods
+const text = "JavaScript";
+
+console.log(text.length);
+console.log(text.toUpperCase());
+console.log(text.includes("Script"));
+
+// Local Storage
+localStorage.setItem("username","Gaurav");
+
+console.log(
+localStorage.getItem("username")
+);
