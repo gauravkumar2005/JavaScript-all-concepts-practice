@@ -159,6 +159,11 @@ html{
   scroll-behavior:smooth;
 }
 
+.dark{
+  background:#111827;
+  color:white;
+}
+
 @media (max-width:768px){
 
   .hero h2{
