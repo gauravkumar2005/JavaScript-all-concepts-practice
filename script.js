@@ -232,3 +232,11 @@ const {name:username, age} = user;
 // Spread Operator
 const arr1 = [1,2,3];
 const arr2 = [...arr1,4,5];
+
+const numbers = [1,2,3,4,5];
+
+console.log(numbers.map(num => num * 2));
+
+console.log(numbers.filter(num => num > 2));
+
+console.log(numbers.reduce((a,b) => a+b,0));
