@@ -150,6 +150,11 @@ li{
   box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
 
+.section:hover{
+  transform:translateY(-5px);
+  transition:0.3s;
+}
+
 html{
   scroll-behavior:smooth;
 }
